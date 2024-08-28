@@ -3,7 +3,7 @@
 **Required Inputs:**
 1) config_files/ neuron_<neuron_id>_results_ecii_V2.txt
    
-   (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage1_Results)
+   (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage1_Results/config_files)
 2) evaluation/neuron<neuron_id>_solution<solution_id>_evaluation_set.csv
 
    (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/evaluation)
