@@ -1,9 +1,9 @@
 # Stage4: Statistical Analysis and Verification of Neuron Activations
 
 **Required Inputs:**
-1) config_files/ neuron_<neuron_id>_results_ecii_V2.txt     
-3) evaluation/neuron<neuron_id>_solution<solution_id>_evaluation_set.csv        (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/evaluation)
-4) verification/neuron<neuron_id>_solution<solution_id>_verification_set.csv    (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/verification)
+1) config_files/ neuron_<neuron_id>_results_ecii_V2.txt                      (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage1_Results)
+2) evaluation/neuron<neuron_id>_solution<solution_id>_evaluation_set.csv     (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/evaluation)
+3) verification/neuron<neuron_id>_solution<solution_id>_verification_set.csv (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/verification)
 
 
 **Expected Outputs:**                  (Path: /homes/samatha94/ExAI_inputs_and_outputs/Stage4_Results)
