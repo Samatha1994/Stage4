@@ -26,7 +26,7 @@ from scipy.stats import mannwhitneyu
 
 indices_file_path = '/homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/indices.txt'
 evaluation_folder_path = '/homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/evaluation'
-config_files_path = '/homes/samatha94/ExAI/ExAI_inputs_and_outputs/Stage1_Results/config_files'
+config_files_path = '/homes/samatha94/ExAI_inputs_and_outputs/Stage1_Results/config_files'
 output_eval_path = '/homes/samatha94/ExAI_inputs_and_outputs/Stage4_Results/evaluation_combined.xlsx'
 verification_folder_path = '/homes/samatha94/ExAI_inputs_and_outputs/Stage3_Results/verification'
 output_veri_path = '/homes/samatha94/ExAI_inputs_and_outputs/Stage4_Results/verification_combined.xlsx'
