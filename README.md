@@ -45,7 +45,7 @@
    
 9) Install Required Python Packages:
 
-   pip install tensorflow Pillow scipy pandas scikit-learn gdown
+   pip install pandas openpyxl scipy
    
 11) Run the Python Script
 
