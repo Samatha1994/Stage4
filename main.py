@@ -133,7 +133,7 @@ for solution_number in range(1, 4):
     ws = wb[f'summary_{solution_number}']
     # Apply bold formatting if target_activation > 80%
     for row in ws.iter_rows(min_row=2, max_col=ws.max_column, max_row=ws.max_row):
-        if row[3].value > =80:  # Assuming target_activation is in the third column
+        if row[3].value >= 80:  # Assuming target_activation is in the third column
             for cell in row:
                 cell.font = Font(bold=True)
 wb.save(output_eval_path)
