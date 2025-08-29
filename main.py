@@ -124,7 +124,7 @@ with pd.ExcelWriter(output_eval_path, engine='openpyxl') as writer:
         summary_df.to_excel(writer, sheet_name=f'summary_{solution_number}', index=False)
 
         # Filter rows where target_activation > 80% and write to a new "final_summary" sheet
-        final_summary_df = summary_df[summary_df['target_activation'] > 80]
+        final_summary_df = summary_df[summary_df['target_activation'] >= 80]
         final_summary_df.to_excel(writer, sheet_name=f'final_summary_{solution_number}', index=False)
 
 # Load workbook and apply formatting
@@ -133,7 +133,7 @@ for solution_number in range(1, 4):
     ws = wb[f'summary_{solution_number}']
     # Apply bold formatting if target_activation > 80%
     for row in ws.iter_rows(min_row=2, max_col=ws.max_column, max_row=ws.max_row):
-        if row[3].value > 80:  # Assuming target_activation is in the third column
+        if row[3].value > =80:  # Assuming target_activation is in the third column
             for cell in row:
                 cell.font = Font(bold=True)
 wb.save(output_eval_path)
